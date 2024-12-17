@@ -15,9 +15,9 @@ export default function HomePage() {
         <h1 className="mt-10 pb-3 text-center text-3xl font-extrabold">Generate your customized quote</h1>
         <p className="text-center text-sm font-medium">lorem ipsum bla blabla bla blablabal ndbla nla nba hagadnf </p>
         <QuoteGenerator />
-        <div className="flex justify-center gap-8 mb-4">
-          <button className="bg-blue-500 text-white py-2 px-14 rounded-md text-md hover:bg-blue-400">Inspire Me!</button>
-          <button className="bg-blue-500 text-white py-2 px-14 rounded-md text-md hover:bg-blue-400">Download</button>
+        <div className="flex justify-center gap-8 pb-6">
+          <button className="bg-blue-400 text-white py-3 px-16 rounded-md text-md hover:bg-blue-400">Inspire Me!</button>
+          <button className="bg-blue-400 text-white py-3 px-16 rounded-md text-md hover:bg-blue-400">Download</button>
         </div>
     </div>
   )
